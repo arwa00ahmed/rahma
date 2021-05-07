@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.430 --> 00:06.810
+In this lecture I'm gonna show you how to connect a USP device to a virtual machine.
+
+00:06.870 --> 00:13.380
+As an example I'm going to be connecting a wireless adapter to my Kelly machine but the same method
+
+00:13.380 --> 00:16.860
+can be used to connect any US b device.
+
+00:16.890 --> 00:23.160
+Now as mentioned in the course requirements you need a wireless adapter for the cracking section of
+
+00:23.160 --> 00:23.910
+this course.
+
+00:23.910 --> 00:29.550
+So these are the lectures where we're going to show you how to crack the passwords for Wi-Fi networks.
+
+00:29.580 --> 00:34.860
+Other than that you can do everything else in the course without a wireless adapter.
+
+00:34.890 --> 00:40.550
+What I mean by a wireless adapter is a USB device that connects through your speak to your computer
+
+00:40.980 --> 00:44.570
+and it allows you to communicate with wireless networks.
+
+00:44.580 --> 00:50.230
+Now most computers and laptops come with a built in wireless card.
+
+00:50.310 --> 00:56.610
+The only problem is first of all you can't access built in wireless cards from a virtual machine.
+
+00:56.670 --> 00:58.110
+Also even if you can.
+
+00:58.140 --> 01:05.040
+So even if you install Kali as a main machine the built in wireless cards are not good for hacking because
+
+01:05.040 --> 01:10.160
+we need a powerful adapter that supports monitor mode and packet injection.
+
+01:10.290 --> 01:16.380
+And we're going to go into what each of these mean but basically the built in wireless adapter does
+
+01:16.380 --> 01:20.930
+not support these modes and can't be used for hacking.
+
+01:20.940 --> 01:24.450
+That's why I recommend powerful wireless adapters.
+
+01:24.450 --> 01:26.910
+They're listed in the course requirements.
+
+01:26.910 --> 01:31.800
+And I'm going to list them in the resources of this lecture and you can connect them to Carly like I'm
+
+01:31.800 --> 01:33.540
+going to show you right now.
+
+01:33.600 --> 01:39.030
+So I already have virtual box open and you just want to click the machine that you want to connect the
+
+01:39.030 --> 01:40.770
+adapter to.
+
+01:40.920 --> 01:44.330
+We're gonna go to its settings.
+
+01:44.410 --> 01:47.020
+We're gonna go to port.
+
+01:47.090 --> 01:56.770
+We're gonna go to SB and make sure that your SB is enabled and you want to pick the US b option that
+
+01:56.770 --> 01:58.420
+is used by your adapter.
+
+01:58.480 --> 02:03.060
+So it's either us B one two or three and for the adapter that I have.
+
+02:03.130 --> 02:09.120
+It uses us B to then you want to come here to the plus sign and click on it.
+
+02:10.170 --> 02:15.760
+Now you'll see that I have a number of devices that I can attach to the Kelly machine.
+
+02:15.760 --> 02:18.190
+Now I still haven't connected the adapter.
+
+02:18.460 --> 02:24.280
+So first of all I'm just gonna have a look on the available devices then I'm going to connect the adapter
+
+02:26.270 --> 02:28.640
+and I'm going to list the devices again.
+
+02:28.640 --> 02:34.250
+I did that because we're assuming that I don't know the name of my adapter because the name that you'll
+
+02:34.250 --> 02:41.540
+see here is the name of the chipset that's used inside the adapter so it's not the brand name that you
+
+02:41.540 --> 02:43.950
+see on the adapter itself.
+
+02:43.970 --> 02:50.360
+So when I click on it now you'll see that I have a new entry called Arturo's and this is actually my
+
+02:50.360 --> 02:51.440
+wireless adapter.
+
+02:51.440 --> 02:55.530
+It's an alpha AWP as 0 3 6 and h a.
+
+02:56.720 --> 02:57.850
+So I'm gonna click on it.
+
+02:58.610 --> 02:59.240
+That's it.
+
+02:59.320 --> 03:00.200
+Here.
+
+03:00.500 --> 03:01.390
+I'm gonna click on.
+
+03:01.410 --> 03:09.900
+Okay and that's the adapter added to Kali now before starting my virtual machine I'm going to physically
+
+03:09.900 --> 03:17.960
+disconnect my wireless adapter and then I'm gonna connect the adapter once Curly fully loaded.
+
+03:17.970 --> 03:19.230
+Now I'm going to started
+
+03:24.000 --> 03:30.010
+so I'm gonna put my username which is rude and my password which is T O R OK.
+
+03:30.030 --> 03:32.020
+Now Carly is fully loaded.
+
+03:32.070 --> 03:38.860
+I'm gonna go and physically connect my wireless adapter and like I said I usually do this just to avoid
+
+03:38.950 --> 03:42.400
+any conflicts now wants the adapter is connected.
+
+03:42.400 --> 03:46.330
+You want to make sure that it's attached to Carly and to do that.
+
+03:46.330 --> 03:51.030
+We're gonna go to the devices menu so we're gonna go all the way to the top.
+
+03:51.070 --> 03:52.610
+We're gonna go to devices.
+
+03:52.870 --> 03:59.020
+We're gonna go on USP and we're gonna make sure that this adapter right here is checked.
+
+03:59.080 --> 04:01.510
+Now sometimes it might not be checked for you.
+
+04:01.510 --> 04:04.570
+So click on it to check it for me it's already checked.
+
+04:04.570 --> 04:05.650
+So I'm not going to click it.
+
+04:07.820 --> 04:15.830
+And to confirm that the adapter is connected we can just go on terminal right here and type if config
+
+04:17.960 --> 04:22.730
+this command lists all the interfaces that's connected to the machine.
+
+04:23.300 --> 04:29.500
+And as you can see now it's shown an adapter called 9 0 which is the wireless adapter.
+
+04:29.780 --> 04:33.110
+So if you have this in here that means your adapter is connected.
+
+04:33.110 --> 04:39.020
+If you don't then ask in the discussions and I'll help you through this some adapters are not compatible
+
+04:39.020 --> 04:42.790
+with Kelly so that could be the issue or the issue could be something else.
+
+04:44.390 --> 04:51.500
+Also now if we go here on the top right you'll see that I have a Wi-Fi option which I can use to connect
+
+04:51.500 --> 04:53.450
+to Wi-Fi networks.
+
+04:53.450 --> 04:59.420
+Now we don't need to do this because I showed you how to setup and not network and carry already has
+
+04:59.420 --> 05:01.910
+Internet access through this not network.
+
+05:01.910 --> 05:07.700
+So we only need the wireless adapter to hack into other networks to crack their passwords.

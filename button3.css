@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+#a{
+    text-align: center;
+    font-size: 50px;
+}
+#z{
+    font-size: 20px;
+    text-align: center;
+}
+#b{
+    text-align: center;
+    font-size: 50px;
+}
+img{
+    display: block;
+    width: 800px;
+    height: 450px;
+}
+.t{
+    width: 800px;
+    margin-bottom: 50px;
+}

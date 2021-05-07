@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>ملابس</title>
+        <link rel="stylesheet" href="button.css">
+        <link rel="icon" href="clothes%20icon.jpg">
+        <link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+  rel="stylesheet"
+/>
+    </head>
+    <body>
+        <!-- Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid justify-content-between">
+    <!-- Left elements -->
+    <div class="d-flex">
+      <!-- Brand -->
+      <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+        <img
+          src="header%20logo.png"
+          height="20"
+          alt=""
+          loading="lazy"
+          style="margin-top: 2px;"
+        />
+      </a>
+
+      <!-- Search form -->
+      <form class="input-group w-auto my-auto d-none d-sm-flex">
+        <input
+          autocomplete="off"
+          type="search"
+          class="form-control rounded"
+          placeholder="Search"
+          style="min-width: 125px;"
+        />
+        <span class="input-group-text border-0 d-none d-lg-flex"
+          ><i class="fas fa-search"></i
+        ></span>
+      </form>
+    </div>
+    <!-- Left elements -->
+
+    <!-- Center elements -->
+    <ul class="navbar-nav flex-row d-none d-md-flex">
+      <li class="nav-item me-3 me-lg-1 active">
+        <a class="nav-link" href="#">
+          <span><i class="fas fa-home fa-lg"></i></span>
+          <span class="badge rounded-pill badge-notification bg-danger">1</span>
+        </a>
+      </li>
+
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link" href="#">
+          <span><i class="fas fa-flag fa-lg"></i></span>
+        </a>
+      </li>
+
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link" href="#">
+          <span><i class="fas fa-video fa-lg"></i></span>
+        </a>
+      </li>
+
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link" href="#">
+          <span><i class="fas fa-shopping-bag fa-lg"></i></span>
+        </a>
+      </li>
+
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link" href="#">
+          <span><i class="fas fa-users fa-lg"></i></span>
+          <span class="badge rounded-pill badge-notification bg-danger">2</span>
+        </a>
+      </li>
+    </ul>
+    <!-- Center elements -->
+
+    <!-- Right elements -->
+    <ul class="navbar-nav flex-row">
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link d-sm-flex align-items-sm-center" href="#">
+          <img
+            src="girl%20logo.jfif"
+            class="rounded-circle"
+            height="22"
+            alt=""
+            loading="lazy"
+          />
+          <strong class="d-none d-sm-block ms-1">رحمة</strong>
+        </a>
+      </li>
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link" href="#">
+          <span><i class="fas fa-plus-circle fa-lg"></i></span>
+        </a>
+      </li>
+      <li class="nav-item dropdown me-3 me-lg-1">
+        <a
+          class="nav-link dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fas fa-comments fa-lg"></i>
+
+          <span class="badge rounded-pill badge-notification bg-danger">6</span>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <li><a class="dropdown-item" href="#">بعض الاخبار</a></li>
+          <li><a class="dropdown-item" href="#">اخبار اخري</a></li>
+          <li>
+            <a class="dropdown-item" href="#">شئ اخر هنا</a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown me-3 me-lg-1">
+        <a
+          class="nav-link dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bell fa-lg"></i>
+          <span class="badge rounded-pill badge-notification bg-danger">12</span>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+            <li><a class="dropdown-item" href="#">بعض الاخبار</a></li>
+          <li><a class="dropdown-item" href="#">اخبار اخري</a></li>
+          <li>
+            <a class="dropdown-item" href="#">شئ اخر هنا</a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown me-3 me-lg-1">
+        <a
+          class="nav-link dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fas fa-chevron-circle-down fa-lg"></i>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+            <li><a class="dropdown-item" href="#">بعض الاخبار</a></li>
+          <li><a class="dropdown-item" href="#">اخبار اخري</a></li>
+          <li>
+            <a class="dropdown-item" href="#">شئ اخر هنا</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <!-- Right elements -->
+  </div>
+</nav>
+<!-- Navbar -->
+        <main>
+           <div class="card bg-dark text-white">
+  <img
+    src="main.jpeg"
+    class="card-img"
+    alt="..."
+  />
+  <div class="card-img-overlay">
+    <h5 class="card-title">الجمعة البيضاء</h5>
+    <p class="card-text">
+      من مكانكِ المفضّل في المنزل وعلى تلك الزاوية من الكنبة التي لا تتخلّين عنها أبداً، أو من وراء شاشة الحاسوب في مقرّ العمل، وبكبسة زر واحدة، ستنتقلين إلى عالم الشوبينغ لتتصفّحي أجدد صيحات الموضة وتشتري أجمل التصاميم. مئات لا بل آلاف المواقع تؤمّن لكِ كل ما تبحثين عنه من ملابس وأكسسوارات لتواكبي صيحات الموضة. لكن، إذا كنتِ من النساء اللواتي يفتّشن بشكل محدد على المواقع التي توفّر طلّات على اخر موضة، إنّما بأسعار معتدلة، 
+
+أفضل مواقع تسوق عبر الانترنت لشراء ملابس واكسسورات بأسعار مقبولة
+موقع تسوق اون لاين الجمعة البيضاء، يقدّم ملابس واكسسوارات بأسعار مقبولة
+يقدّم موقع الجمعة البيضاء تشكيلة كبيرة من أجدد صيحات ملابس واكسسوارات نسائية ورجالية. كل يوم يتوفّر لدى الموقع مئات التصاميم الجديدة، كما ويجعل تسوق اون لاين تجربة مرحة، حيث تجدين أجدد التصاميم المستوحاة من عروض الأزياء العالمية بأسعار مقبولة، تجعلكِ كالفاشينيستا. في حال كنتِ تبحثين عن ملابس رياضية، رسمية، فساتين سهرة أو حتى حقائب واحذية، فستجدين كل ما يخطر على بالكِ لدى موقع الجمعة البيضاء.
+
+    </p>
+    <p class="card-text">اخر تحديث منذ اسبوع</p>
+  </div>
+</div> 
+        </main>
+        <div class="body">
+        <h1>ملابس</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="clothes1.jpeg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">طقم رجالي</h5>
+        <p class="card-text">
+            اصبح بامكانك ايها الرجل من خلال هذا الطقم التميز دائما والظهور ف ابهي صور حيث يتميز هذا الطقم باللون الابيض مع البني حيث يعطي مظهر جذاب وسعره مناسب جدا 750 جنيه بدلا من 900 جنيه لفترة محدودة 
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">اخر تحديث منذ اسبوع</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="clothes2.jpeg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">طقم للعمل</h5>
+        <p class="card-text">
+        اصبح بامكان رجل الاعمال الظهور بمظهر جذاب ومريح للعين من خلال هذا المزيح الفريد من الالوان والذي يمنحك المزيد من الثقة بالنفس احجزه قبل نفاذ الكمية حيث سعره مميز 800 جنيه بدلا من 1100 وذلك لفترة محدودة
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">اخر تحديث منذ اسبوع</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="clothes3.jpeg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">طقم شبابي</h5>
+        <p class="card-text">
+          يتميز هذا الطقم بمزيج من الالوان الشبابية والتي تجذب الاخرين للنظر لك والاعجاب بهذه الشبابية المميزة ويتميز بوجود نظرات شمسية مميزة وسعره مناسب جدا احجزه الان بسرعة بسعر 1000 جنيه بدلا من 1300 جنيه 
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">اخر تحديث منذ اسبوع</small>
+      </div>
+    </div>
+  </div>
+</div>        <h1>اكسسوارات</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="jewelery1.jpeg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">سلاسل</h5>
+        <p class="card-text">
+            اصبح بامكان المراة تنسيق ملابسها بشكل جذاب ورائع من خلال هذه المجموعة الفريدة من السلاسل والتي تتميز بالرقة واللون الجذاب الرائع الذي يجذب الاعين وباسعار خيالية بسعر 150 جنيه فقط بدلا من 300 جنيه لفترة 
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">اخر تحديث منذ يومين</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="jewelery2.jpeg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">خواتم</h5>
+        <p class="card-text">
+         زيني اصابعكى بهذه المجموعة المميزة لكي من الخواتم ذات الالوان الذاهية والجذابة والتي تظل محتفظة بالوانها مع مرور الوقت وهذا ما يميزنا عن غيرنا اشتري الان الخاتم بسعر 50 جنيه فقط بدلا من سعر 90 جنيه لفترة 
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">اخر تحديث منذ يومين</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="jewelery3.jpeg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">اساور</h5>
+        <p class="card-text">
+            عرض مميز لكي يسيدتي من خلال هذا الكوليكشن من الاساور ذات الالوان الذهبية المميزة والتي تعطي لذراعيكي المظهر الرائع والجذاب احصلي عليها الان بسعر 300 جنيه بدلا من سعر 400 جنيه وذلك لفترة محدودة فقط
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">اخر تحديث منذ يومين</small>
+      </div>
+    </div>
+  </div>
+</div>        <h1>مستحضرات تجميل</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="makeup1.jpeg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">ليب استيك</h5>
+        <p class="card-text">
+         نحن نحرص علي جمالك ومظهرك لذلك نقدم لك هذه المجموعة المميزة من الليب استيك السائل ذي الالوان المناسب للصيف والتي تمنحكي مظهر جذاب احصلي عليها بسعر 300 جنيه بدلا من سعر 380 وذلك لفترة محدودة فقط
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">اخر تحديث منذ اسبوعين</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="makeup3.jpeg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">احمر شفاه</h5>
+        <p class="card-text">
+        يتوفر لدينا هذا اللون المميز من الاحمر شفاه والذي يمنحك التميز بمظهر رائع دائما ومع هذا الاحمر شفاه يتوفر البلاشر ذو اللون الوردي الجميل احصلي عليهما الان بسعر 420 جنيه بدلا من سعر 500 جنيه وذلك لفترة محدودة
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">اخر تحديث منذ اسبوعين</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img
+        src="makeup2.jpeg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">ماسكارا</h5>
+        <p class="card-text">
+            تعطي هذه الماسكرا لعينيك المظهر القوي حيث تقوم بتكثيف الرموش ثلاث مراحل وتعطي لك المظهر القوي من خلال لونها الاسود الجذاب احصلي عليها الان بسعر 200 جنيه بدلا من سعر 350 جنيه وذلك لفترة محدودة 
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">اخر تحديث منذ اسبوعين</small>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <footer class="bg-light text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    جميع الحقوق محفوظة 2020 &copy;
+    <a class="text-white" href="https://mdbootstrap.com/">رحمة سالم</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+       <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+></script> 
+    </body>
+</html>
